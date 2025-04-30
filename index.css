@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    text-align: center;
+    font-weight: 400;
+}
+
+/*Barra de navegación*/
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+nav ul {
+    width: 100%;
+    padding-right: 30px;
+    justify-content: right;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    padding: 10px;
+    padding: 10px;
+}
+
+/*Cabecera de la página*/
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+#textoBanner {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header h1 span {
+    color: #D01418;
+}
+
+header button {
+    background-color: #D01418;
+    color: white;
+    border: none;
+    width: 220px;
+    height: 61px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*Productos destacados*/
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.game-card {
+    width: 20%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-price {
+    width: 80%;
+    text-align: left;
+    margin: 10px;
+}
+
+.game-img {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+}
+
+.envio {
+    color: #619D00;
+    font-size: 0.9em;
+}
+
+/*Productos estrella*/
+
+.banner-estrella {
+    width: 40%;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+}
+
+.banner-estrella h2 {
+    margin: 30px;
+}
+
+#banner1 {
+    background-image: url(./images/banners/banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner2 {
+    background-image: url(./images/banners/banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Footer*/
+
+footer {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+#card-redes {
+    text-align: right;
+    width: 20%;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#redes {
+    display: flex;
+    justify-content: right;
+    padding: 0 7px 50px 0;
+    gap: 20px;
+}
+
+#redes img {
+    width: 24px;
+}
+
+#card-redes a {
+    text-decoration: none;
+    color: white;
+}
+
+#card-redes h3 {
+    padding-top: 20px;
+}
